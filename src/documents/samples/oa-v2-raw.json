@@ -1,0 +1,25 @@
+{
+  "$template": {
+    "name": "SAMPLE_V2",
+    "type": "EMBEDDED_RENDERER",
+    "url": "<YOUR_HOSTED_RENDERER_URL>"
+  },
+  "issuers": [
+    {
+      "name": "ABC Pte Ltd",
+      "documentStore": "<YOUR_DOCUMENT_STORE_ADDRESS>",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "<YOUR_DOMAIN>"
+      }
+    }
+  ],
+  "recipient": {
+    "name": "John Doe"
+  },
+  "birthDate": "1999-01-01",
+  "network": {
+    "chain": "ETH",
+    "chainId": "11155111"
+  }
+}
